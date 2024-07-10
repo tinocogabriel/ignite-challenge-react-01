@@ -1,0 +1,48 @@
+
+.taskList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;    
+}
+
+.taskItem {
+    display: flex;
+    justify-items: flex-start;
+    width: 100%;
+    background: var(--gray-500);
+    border-radius: 8px;
+    padding: 1rem;
+    gap: 0.5rem
+}
+
+.taskItem + .taskItem{
+    margin-top: 0.75rem;
+}
+
+.taskItem label{
+    cursor: pointer;
+}
+
+.taskItem label .unchecked {
+    color: var(--blue);
+}
+
+.taskItem label .checked {
+    color: var(--purple);
+}
+
+.taskItem label input[type="checkbox"]{
+    display: none;
+}
+
+.taskItem span{
+    flex: 1;
+    color: var(--gray-100);
+    font-size: 0.875rem;
+}
+
+.taskItem a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--gray-300);
+}
