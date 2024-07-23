@@ -1,30 +1,26 @@
-# React + TypeScript + Vite TESTE
+# 📝 Meu Desafio Ignite - Aplicação de Controle de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Olá! Este é o meu projeto do desafio do curso Ignite da Rocketseat. Desenvolvi uma aplicação de **to-do list** para ajudar no controle de tarefas diárias de maneira simples e eficiente.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aqui estão as principais funcionalidades que implementei:
 
-## Expanding the ESLint configuration
+- **➕ Adicionar Tarefa**: Você pode adicionar novas tarefas à lista facilmente.
+- **✅ Marcar/Desmarcar Tarefa**: Marque ou desmarque tarefas como concluídas com um clique.
+- **🗑️ Remover Tarefa**: Remova tarefas que já não são necessárias.
+- **📊 Progresso de Conclusão**: Acompanhe seu progresso de conclusão das tarefas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📚 Conceitos Abordados
 
-- Configure the top-level `parserOptions` property like this:
+Durante o desenvolvimento, trabalhei com alguns conceitos essenciais do React:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **🔄 Estados**: Gerenciei o estado para controlar o fluxo de dados da aplicação.
+- **🔗 Imutabilidade do Estado**: Apliquei a imutabilidade para garantir a integridade do estado.
+- **📋 Listas e Chaves**: Utilizei listas com chaves únicas para renderizar os componentes de forma eficiente.
+- **📦 Propriedades**: Passei dados entre componentes de maneira clara e organizada.
+- **🧩 Componentização**: Dividi a interface em componentes reutilizáveis para facilitar a manutenção.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Tecnologias Utilizadas
+
+- **⚛️ React**: Usei React para construir a interface de usuário de forma declarativa e componentizada.
